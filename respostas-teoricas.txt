@@ -1,0 +1,13 @@
+Respostas das Questoes Teoricas - Ponteiros em C
+
+Questao 1: Qual das seguintes afirmacoes sobre ponteiros em C e VERDADEIRA?
+Resposta: Um ponteiro armazena o endereco de memoria de uma variavel.
+
+Questao 2: O que o operador * (asterisco) faz quando usado na frente de uma variavel do tipo ponteiro que ja foi inicializada?
+Resposta: Acessa (dereferencia) o valor armazenado no endereco de memoria para o qual o ponteiro aponta.
+
+Questao 3: Para que serve a funcao malloc() da biblioteca <stdlib.h>?
+Resposta: Para alocar um bloco de memoria de um tamanho especificado em bytes e retornar um ponteiro para o inicio desse bloco.
+
+Questao 4: Considere a funcao void modifica (int *a, int b) que altera o valor da variavel para a qual a aponta. Como seria a chamada correta desta funcao na main para modificar uma variavel int num = 5;?
+Resposta: modifica(&num, b);
